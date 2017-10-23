@@ -1,0 +1,30 @@
+{
+  "name": "MongoScrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dluu0630/MongoScrape.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dluu0630/MongoScrape/issues"
+  },
+  "homepage": "https://github.com/dluu0630/MongoScrape#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "mongoose": "^4.12.3",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
